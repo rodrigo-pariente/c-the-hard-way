@@ -5,7 +5,7 @@ int main (int argc, char* argv[])
     int distance = 100;
     float power = 2.345f; // o que faz o f?
     double super_power = 56789.4532; // diferenca float x double?
-    char inital = 'A';
+    char initial = 'A';
     char first_name[] = "Zed"; // como atribuicao de strings funciona?
     char last_name[] = "Shaw";
 
@@ -30,5 +30,5 @@ int main (int argc, char* argv[])
     printf("You are expected to have %f bugs.\n", expected_bugs);
 
     double part_of_the_universe = expected_bugs / universe_of_defects;
-    printf("That is only a %e portion of the universe.\n");
+    printf("That is only a %e portion of the universe.\n", part_of_the_universe);
 }
